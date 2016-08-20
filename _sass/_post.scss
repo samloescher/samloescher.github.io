@@ -7,8 +7,7 @@
 }
 
 .post-brief-title {
-  font-weight: 400;
-  color: black !important;
+  font-weight: 500;
   font-size: $larger-font-size;
   text-align: center;
   text-transform: uppercase;
@@ -31,6 +30,10 @@
 }
 
 .post-brief-tag {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: $small-font-size;
   float: right;
 }
 /**

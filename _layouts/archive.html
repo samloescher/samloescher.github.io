@@ -8,7 +8,7 @@ layout: page
 
 {% for post in site.posts %}
     {% for category in post.categories %}
-        {% if category == page.category %}
+        {% if page.category contains category %}
             {% include list-posts.html %}
         {% endif %}
     {% endfor %}
