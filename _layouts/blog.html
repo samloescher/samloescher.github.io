@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<div class="blog-navigation">
+    {% for category in site.blog_categories %}
+        <a class="page-link exclamationMark" href="{{sitePage.url}}\blog\{{category}}">{{category}}</a>
+    {% endfor %}
+</div>
+
+{% for post in site.posts %}
+    <div class="post postContent">
+        <div class="postDate">
+            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ post.date | date: "%b %-d, %Y"}}
+            </time>
+        </div>
+        <div class="postDay">
+            {{post.tag}}
+        </div>
+        <br>
+        <div class="postTitle">
+            <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        </div>
+        <div class="postExt">
+            {{post.excerpt}}
+        </div>
+    </div>
+{% endfor %}

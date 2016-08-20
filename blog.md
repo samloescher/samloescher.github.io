@@ -1,7 +1,5 @@
 ---
-layout: archive
+layout: blog
 title: Blog
 permalink: /blog/
-category: "blog"
-tagline: "Blogging blog blog."
 ---

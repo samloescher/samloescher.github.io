@@ -47,39 +47,11 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+      "base",
+      "layout",
+      "syntax-highlighting",
+"post"
 ;
-
-
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/**
- * Basic styling
- */
-body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-}
-
 
 
 /**
@@ -289,12 +261,6 @@ pre {
     }
 }
 
-.post {
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: 300;
-  padding-top: 0;
-}
 .home{
   padding-bottom: 5em;
 }
@@ -388,6 +354,18 @@ pre {
   padding-left: 2em;
   padding-right: 2em;
 }
+.blog-navigation {
+  color: #ccc;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-indent: 6px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  padding-top: 0.5em;
+}
+
 .site-navigation {
   color: #aaa;
   text-align: center;
