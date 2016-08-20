@@ -8,6 +8,10 @@ $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
+$large-font-size:  $base-font-size * 1.275;
+$larger-font-size:  $base-font-size * 1.5;
+$largest-font-size:  $base-font-size * 1.75;
+
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -40,9 +44,4 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "blog", "footer", "general", "page", "post", "site", "syntax_highlighting";
-
-
-.small-site-title {
-  font-family: "PT Sans";
-}
+@import "footer", "general", "page", "post", "site", "syntax_highlighting";

@@ -2,7 +2,6 @@
 layout: page
 title: Resume
 permalink: /resume/
-tagline: "Who am I?"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

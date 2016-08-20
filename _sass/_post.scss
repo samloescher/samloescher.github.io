@@ -1,3 +1,42 @@
+/**
+ * Post overview
+ */
+.post-brief {
+  padding-top: 3em;
+  font-family: "Source Sans Pro";
+}
+
+.post-brief-title {
+  font-weight: 400;
+  color: black !important;
+  font-size: $larger-font-size;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-indent: 3px;
+}
+
+.post-brief-date {
+  float: left;
+  text-transform: uppercase;
+  font-size: $small-font-size;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+
+.post-brief-excerpt {
+  text-align: center;
+  font-weight: 200;
+}
+
+.post-brief-tag {
+  float: right;
+}
+/**
+ * Actual post content
+ */
+
 .post {
   font-family: "Source Sans Pro";
   font-size: 18px;
@@ -5,30 +44,34 @@
   padding-top: 0;
 }
 
-.postContent {
-  padding-top: 3.5em;
+.post-title {
+  font-size: 62px;
   text-align: center;
-}
-.postDate {
-  float: left;
-  text-transform: uppercase;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-indent: 2px;
-}
-.postTag {
-  float: right;
-}
-.postTitle {
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-indent: 3px;
+  font-weight: 900;
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
 }
 
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-heading {
+  font-size: 20px;
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
 
 .post-list {
   margin-left: 0;
@@ -37,38 +80,7 @@
     margin-bottom: $spacing-unit;
   }
 }
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-  text-transform: uppercase;
-  font-size: 16px;
-  text-align: center;
-}
-.post-link {
-  display: block;
-  font-size: 24px;
-}
-/**
- * Posts
- */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
-.post-title {
-  font-size: 62px;
 
-  text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
-  @include media-query($on-laptop) {
-    font-size: 36px;
-  }
-}
-.post-author {
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 3px;
-}
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;

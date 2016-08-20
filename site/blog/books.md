@@ -1,5 +1,6 @@
 ---
 layout: archive
-title: Blog
+title: Blog - Books
 permalink: /blog/books
+category: books
 ---

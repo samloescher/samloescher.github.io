@@ -1,0 +1,18 @@
+<div class="post-brief">
+
+    <div class="post-brief-date">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    <div class="post-brief-tag">
+        {{post.categories}}
+    </div>
+    <br>
+    <div class="post-brief-title">
+        <a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    </div>
+
+    <div class="post-brief-excerpt">
+        {{post.excerpt}}
+    </div>
+
+</div>

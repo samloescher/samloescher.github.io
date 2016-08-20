@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #aaa !important;
+  color: #555 !important;
   text-decoration: none;
 
   &:visited {
@@ -87,36 +87,6 @@ a {
 
   &:hover {
     color: black !important;
-    border-bottom: 1px dotted black ;
-  }
-
-  &.page-link{
-    &:hover {
-      color: $text-color;
-      border-bottom: 1px dotted black ;
-    }
-  }
-  &.postLink{
-    color: black !important;
-    &:hover {
-
-      border-bottom: 1px dotted black ;
-    }
-
-    &:visited {
-      color: "crimson" !important;
-    }
-  }
-  &.post-title-link{
-    color: black !important;
-    &:hover {
-
-      border-bottom: 1px dotted black !important ;
-    }
-
-    &:visited {
-      color: "crimson" !important;
-    }
   }
 }
 

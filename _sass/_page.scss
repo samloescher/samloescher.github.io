@@ -1,20 +1,14 @@
 /**
  * Page content
  */
-.page-content {
-  padding: 0;
-}
-.page-heading {
-  font-size: 20px;
-}
 
 .page-title {
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-indent: 2px;
   font-family: "PT Sans";
-  font-size: 12px;
+  text-align: center;
 }
+
 .page-tagline {
   font-size: 18px;
   font-family: "PT Sans";
@@ -22,6 +16,11 @@
   text-align: center;
   text-transform: lowercase;
 }
+
+.page-content {
+  padding: 0;
+}
+
 .page-link {
   color: rgb(170, 170, 170);
 }

@@ -1,27 +1,15 @@
 ---
 layout: page
 ---
-{% include blog.html %}
+
+<div class="page-title">
+    {{page.category}}
+</div>
 
 {% for post in site.posts %}
-{% for category in post.categories %}
-{% if category == page.category %}
-
-<div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    <div class="postDay">
-        {{post.tag}}
-    </div>
-    <br>
-    <div class="postTitle">
-        <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
-    <div class="postExt">
-        {{post.excerpt}}
-    </div>
-</div>
-{% endif %}
-{% endfor %}
-
+    {% for category in post.categories %}
+        {% if category == page.category %}
+            {% include archive.html %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}

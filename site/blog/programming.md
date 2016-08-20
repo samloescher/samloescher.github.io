@@ -1,5 +1,6 @@
 ---
 layout: archive
-title: Blog
+title: Blog - Programming
 permalink: /blog/programming
+category: programming
 ---
