@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: archive
+title: Blog
+permalink: /blog/
 ---
-
-<div class="blog-navigation">
-    {% for category in site.blog_categories %}
-        <a class="page-link exclamationMark" href="{{sitePage.url}}\blog\{{category}}">{{category}}</a>
-    {% endfor %}
-</div>
 
 {% for post in site.posts %}
     <div class="post postContent">
