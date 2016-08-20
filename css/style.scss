@@ -301,13 +301,6 @@ pre {
 .download {
   padding: 10px;
 }
-.authorKeyword {
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-indent: 2px;
-  padding-top:0.5em;
-}
 .writtenBy {
   letter-spacing: 0;
   text-indent: 0;
@@ -375,6 +368,7 @@ pre {
   font-size: 64px;
   font-weight: 100;
   font-family: 'PT Sans';
+  text-align: center;
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -387,6 +381,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
+  text-align: center;
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
@@ -395,6 +390,7 @@ pre {
 }
 .site-navigation {
   color: #aaa;
+  text-align: center;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -556,6 +552,7 @@ pre {
   color: $grey-color;
   text-transform: uppercase;
   font-size: 16px;
+  text-align: center;
 }
 .post-link {
   display: block;
@@ -576,6 +573,11 @@ pre {
   @include media-query($on-laptop) {
     font-size: 36px;
   }
+}
+.post-author {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
 }
 .post-content {
   margin-bottom: $spacing-unit;
