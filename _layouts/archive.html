@@ -9,7 +9,7 @@ layout: page
 {% for post in site.posts %}
     {% for category in post.categories %}
         {% if category == page.category %}
-            {% include archive.html %}
+            {% include list-posts.html %}
         {% endif %}
     {% endfor %}
 {% endfor %}
