@@ -3,8 +3,6 @@
  */
 
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -57,7 +55,7 @@
 }
 
 .site-nav-sub {
-  color: #ccc;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
@@ -65,10 +63,10 @@
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .site-nav-sub-item {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
