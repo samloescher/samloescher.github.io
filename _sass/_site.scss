@@ -12,16 +12,19 @@
 
 .site-title {
   font-size: 64px;
-  font-weight: 100;
   font-family: 'PT Sans';
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+}
+
+.site-sub-title {
+  font-size: 32px;
+  font-family: 'PT Sans';
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .site-description {
@@ -37,10 +40,6 @@
   padding: $spacing-unit 0;
 }
 
-.small-site-title {
-  font-family: "PT Sans";
-}
-
 .site-nav {
   color: #aaa;
   text-align: center;
@@ -50,8 +49,6 @@
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 400;
-  padding-top: 2em;
-
 }
 
 .site-nav-item {
