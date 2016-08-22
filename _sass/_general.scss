@@ -58,6 +58,7 @@ figcaption {
  */
 ul, ol {
   margin-left: $spacing-unit;
+  list-style: none;
 }
 
 li {
@@ -68,10 +69,39 @@ li {
 }
 
 /**
+ * Tables
+ */
+table {
+  border: none;
+  width : 100%;
+  * > span{
+    white-space: nowrap;
+  }
+}
+th {
+  font-weight: normal;
+  text-align: center;
+}
+
+td {
+  text-align: justify;
+}
+.center * td{
+  text-align: center;
+}
+
+table tr th {
+  width: 17%
+}
+
+/**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+}
+h1 {
+  text-transform: uppercase;
 }
 
 /**
