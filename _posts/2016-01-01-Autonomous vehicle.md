@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Lane departure warning system on an FPGA
+title:  Autonomous vehicle
 date:   2016-03-30
 author: Sam Loescher
 categories: academic

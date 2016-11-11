@@ -10,9 +10,6 @@ permalink: /projects/
 
 <div class="site-nav-sub">
     <span class = "site-nav-sub-item">
-        [<a class="page-link" href="{{sitePage.url}}\projects\work">work</a>]
-    </span>
-    <span class = "site-nav-sub-item">
         [<a class="page-link" href="{{sitePage.url}}\projects\academic">academic</a>]
     </span>
     <span class = "site-nav-sub-item">
