@@ -3,7 +3,7 @@
  */
 
 .site-header {
-  min-height: 56px;
+  min-height: 48px;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -14,7 +14,7 @@
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
-  margin-top: 1em;
+  margin-top: .1em;
   > * {
     color:black !important;
   }

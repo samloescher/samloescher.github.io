@@ -7,7 +7,6 @@
 
 # Site settings
 title: Sam Loescher
-email: samuel.loescher@gmail.com
 description: Hosted by Github
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://samloescher.github.io" # the base hostname & protocol for your site
